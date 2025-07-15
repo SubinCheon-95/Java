@@ -9,9 +9,9 @@ public class Engineer extends Person {
 		this.field = field;
 	}
 
-	public void work() {
-		super.work();
-		System.out.println("저는 " + this.field + "엔지니어 입니다.");
+	public void introduce() {
+		super.introduce();
+		System.out.println("저는 " + this.field + " 엔지니어 입니다.");
 	}
 	
 }

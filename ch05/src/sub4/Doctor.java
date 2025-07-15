@@ -14,6 +14,4 @@ public class Doctor extends Person {
 		System.out.println("저는 " + this.specialty + " 의사 입니다.");
 		
 	}
-
-
 }

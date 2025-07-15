@@ -6,14 +6,11 @@ package sub2;
  * 내용 : 캡슐화 문제 풀기
  */
 
-public class Book {
+public class Book extends Bookstore {
 	
 	public static void main(String[] args) {
 		
 		Book book1 = new Book("삼국지", "나관중", "10001", 10);
-		
-		book1.borrowBook();
-		book1.getTitle();
 		book1.show();
 		
 		boolean isOK = book1.borrowBook();

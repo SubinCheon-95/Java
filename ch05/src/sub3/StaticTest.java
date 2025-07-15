@@ -70,9 +70,6 @@ public class StaticTest {
 		System.out.println("2 * 3 : " + c3.multi(2, 3));
 		System.out.println("4 / 2 : " + c4.div(4, 2));
 		
-		
-		
-		
 	}
 
 }

@@ -2,10 +2,10 @@ package sub2;
 
 public class Bookstore {
 
-	private String title;
-	private String author;
-	private String isbn;
-	private int availableCopies;
+	protected String title;
+	protected String author;
+	protected String isbn;
+	protected int availableCopies;
 	
 	public Bookstore(String title, String author, String isbn, int availableCopies) {
 		this.title = title;
