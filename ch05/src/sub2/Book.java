@@ -6,14 +6,14 @@ package sub2;
  * 내용 : 캡슐화 문제 풀기
  */
 
-public class Book extends Bookstore {
+public class Book {
 	
 	public static void main(String[] args) {
 		
-		Book book1 = new Book("삼국지", "나관중", "10001", 10);
+		Bookstore book1 = new Bookstore("삼국지", "나관중", "10001", 10);
 		book1.show();
 		
-		boolean isOK = book1.borrowBook();
+		boolean isOK = book1.borrowbook();
 		
 		if(isOK) {
 			System.out.println(book1.getTitle() + "도서 대출 성공!");
@@ -23,10 +23,10 @@ public class Book extends Bookstore {
 		
 		book1.show();
 		
-		Book book2 = new Book("명품 Java", "황기태", "10002", 1);
+		Bookstore book2 = new Bookstore("명품 Java", "황기태", "10002", 1);
 		
-		boolean isOK1 = book2.borrowBook();
-		boolean isOK2 = book2.borrowBook();
+		boolean isOK1 = book2.borrowbook();
+		boolean isOK2 = book2.borrowbook();
 		
 		if(isOK) {
 			System.out.println(book2.getTitle() + "도서 대출 성공!");
