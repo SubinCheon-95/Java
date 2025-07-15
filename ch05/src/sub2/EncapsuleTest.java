@@ -44,10 +44,13 @@ public class EncapsuleTest {
 		// 출력 30000
 		// 김철수 >> 김철민
 		
-		Account kb = new Account();
+		Account kb = new Account("국민은행", "101-11-1001", "김철수", 10000);
 		
 		kb.deposit(30000);
 		kb.withdraw(10000);
+		
+		kb.setName("김철민");
+		
 		kb.show();
 		
 		////////////////////////////
@@ -60,6 +63,10 @@ public class EncapsuleTest {
 		
 		wr.deposit(40000);
 		wr.withdraw(20000);
+		
+		wr.setBank("너희은행");
+		wr.setName("김유랑");
+		
 		wr.show();
 		
 	}
