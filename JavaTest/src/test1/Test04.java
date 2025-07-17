@@ -20,18 +20,17 @@ public class Test04 {
 		System.out.println("입력한 점수는 " + score + "입니다.");
 		
 		if(score >= 90 && score <= 100) {
-			char grade1 = 'A';
+			grade = 'A';
 		}else if(score >= 80 && score <= 90) {
-			char grade2 = 'B';
+			grade = 'B';
 		}else if(score >= 70 && score <= 80) {
-			char grade3 = 'C';
+			grade = 'C';
 		}else if(score >= 60 && score <= 70) {
-			char grade4 = 'D';
+			grade = 'D';
 		}else {
-			char grade5 = 'F';
+			grade = 'F';
 		}
 				
 		System.out.printf("등급은 %c입니다.", grade);
 	}
-	
 }

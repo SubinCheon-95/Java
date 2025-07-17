@@ -13,17 +13,13 @@ public class Test03 {
 		
 		// 현재 배열 출력
 		for(int i = 0 ; i < 10 ; i++) {
-			int temp = arr[i];
-			arr[i] = arr[9-i];
-			arr[9 - i] = temp;
+			System.out.println(arr[i]+", ");
 		}
 		
-		// 역순으로 정렬된 배열 출력
+		System.out.println("\n");
+		
+	// 역순으로 정렬된 배열 출력
 		for(int n : arr) {
-			
-			// System.out.println("a : " + a);
-			// System.out.println("b : " + b);
-
 			System.out.print(n + ", ");
 		}
 	}

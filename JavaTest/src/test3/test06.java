@@ -38,7 +38,6 @@ class Adder {
 		}
 	
 	public void show() {
-		System.out.println("----------------");
 		System.out.println("x : " + x);
 		System.out.println("y : " + y);
 	}

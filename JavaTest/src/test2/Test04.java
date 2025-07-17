@@ -35,8 +35,8 @@ public class Test04 {
 		}
 		
 		// 정렬된 배열 출력하기
-		for(???????????) {
-			System.out.println();
+		for(int n : arr) {
+			System.out.print(n + " ");
 		}
 	}
 }

@@ -20,7 +20,7 @@ public class test01 {
 		System.out.println("===================");
 		System.out.println("이름 : " + this.name);
 		System.out.println("나이 : " + this.age);
-		System.out.println("-------------------");
+		System.out.println("===================");
 	}
 	
 	public static void main(String[] args) {
