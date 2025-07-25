@@ -77,23 +77,6 @@ public class MapTest {
 		
 		// 태국 사과 출력
 		list.get(2).get(302).show();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
 

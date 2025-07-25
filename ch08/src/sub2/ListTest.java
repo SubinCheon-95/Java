@@ -16,7 +16,7 @@ public class ListTest {
 	public static void main(String[] args) {
 		
 		// ArrayList 기본
-		List<Integer> list =  new ArrayList();
+		List<Integer> list = new ArrayList();
 		
 		// 데이터 삽입
 		list.add(1);
@@ -72,7 +72,7 @@ public class ListTest {
 		System.out.println(people);
 		
 		// 장보고 제거 후, '왕건' 삽입
-		people.remove(3);
+		people.remove(people.indexOf("장보고"));
 		people.add(3, "왕건");
 		System.out.println(people);
 		
