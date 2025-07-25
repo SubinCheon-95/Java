@@ -71,8 +71,8 @@ public class ExceptionTest {
 	// 동적 객체 생성
 	try {	
 		Class cs = Class.forName("sub1.Tiger"); // 문자열 정보로 클래스 로드
-		Constructor<?> constructor =  cs.getDeclaredConstructor();
-		Tiger tiger = (Tiger) constructor.newInstance();
+		Constructor<?> constructor =  cs.getDeclaredConstructor(); // 클래스 객체 생성
+		Tiger tiger = (Tiger) constructor.newInstance(); // 객체 생성
 		
 		tiger.move();
 		tiger.hunt();
