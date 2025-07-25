@@ -6,7 +6,6 @@ package sub2;
  * 내용 : 자바 메서드 실습하기
  */
 public class MethodTest { // Java는 class 구조체로서 Method로 구성
-
 	
 	// main 메서드 : Java 애플리케이션의 시작 메서드(진입점)
 	public static void main(String[] args) {
@@ -29,7 +28,6 @@ public class MethodTest { // Java는 class 구조체로서 Method로 구성
 		System.out.println("total1 : " + total1);
 		System.out.println("total2 : " + total2);
 		
-		
 	} // main end
 	
 	// 메서드 정의
@@ -47,7 +45,6 @@ public class MethodTest { // Java는 class 구조체로서 Method로 구성
 		for(int k=start ; k<=end ; k++) { // k변수는 for문에서 선언했기 때문에 for가 종료되면 해제됨
 			total += k;
 		}
-
 		return total;
 	}
 }

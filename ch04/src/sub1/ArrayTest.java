@@ -84,11 +84,7 @@ public class ArrayTest {
 				for(int c=0 ; c<arr3d.length ; c++) {
 					System.out.printf("arr3d[%d][%d][%d] : %d\n", a, b, c, arr3d[a][b][c]);
 				}
-				
 			}
-			
 		}
-		
 	}
-
 }

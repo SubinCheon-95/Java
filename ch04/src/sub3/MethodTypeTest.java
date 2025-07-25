@@ -26,7 +26,6 @@ public class MethodTypeTest {
 		System.out.println("result : " + result);
 		
 		type4();
-		
 	}
 	
 	// type1 : 매개변수 O, 반환값 O
@@ -43,7 +42,6 @@ public class MethodTypeTest {
 		}else {
 			System.out.println("거짓 입니다.");
 		}
-		
 	}
 	
 	// type3 : 매개변수 X, 반환값 O
@@ -64,5 +62,4 @@ public class MethodTypeTest {
 		double result = type1(5.0);
 		System.out.println("반지름5인 원의 넓이 : " + result);
 	}
-	
 }
