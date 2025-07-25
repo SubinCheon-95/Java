@@ -21,7 +21,7 @@ public class StreamTest {
 		
 		try {
 			// 바이트 스트림 생성(파일 연결)
-			FileInputStream fis = new FileInputStream(source);
+			FileInputStream  fis = new FileInputStream(source);
 			FileOutputStream fos = new FileOutputStream(target);
 			
 			// 문자 스트림
@@ -42,6 +42,7 @@ public class StreamTest {
 					break;
 				}
 				
+				// 바이트 스트림 출력
 				char ch1 = (char) data;
 				// System.out.println(ch1);
 				
@@ -51,7 +52,6 @@ public class StreamTest {
 				
 				// 파일 쓰기
 				// fos.write(data);
-				
 				fw.write(text);
 			}
 			
