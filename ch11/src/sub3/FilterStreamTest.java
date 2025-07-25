@@ -35,50 +35,17 @@ public class FilterStreamTest {
 										}
 									})
 									.collect(Collectors.toList());
+		
 		System.out.println(numbers3);
 		
 		// 중복 제거, 짝수 데이터 필터링, 내림차순 정렬
 		List<Integer> numbers4 = numbers
 									.stream()
 									.distinct()
-									// filter( num -> num % 2 == 0)
-									.filter( num -> {
-										
-										if( num % 2 == 0) {
-											return false;
-										}else {
-											return true;
-										}
-									})
+									.filter( num -> num % 2 == 0)
 									.sorted(Collections.reverseOrder())
 									.collect(Collectors.toList());
+		
 		System.out.println(numbers4);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }

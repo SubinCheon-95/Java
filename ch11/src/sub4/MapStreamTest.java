@@ -9,7 +9,6 @@ import java.util.stream.Collectors;
  * 이름 : 천수빈
  * 내용 : 맵 스트림 실습하기
  */
-
 class Person{
 	private String name;
 	private int age;
@@ -20,6 +19,14 @@ class Person{
 		this.age = age;	
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + "]";
 	}
@@ -68,20 +75,5 @@ public class MapStreamTest {
 								}).collect(Collectors.toList());
 		
 		System.out.println(result);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
