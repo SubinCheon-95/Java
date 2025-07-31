@@ -17,9 +17,10 @@ public class Main07 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		int loginId = sc.nextInt();
+		String Id = sc.next();
+
+		System.out.println(Id + "??!");
 		
-
+		sc.close();
 	}
-
 }
