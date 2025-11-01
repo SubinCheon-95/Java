@@ -1,2 +1,1 @@
-# Java
-Java 수업 예제 저장소
+# BNK-Project_Team4
